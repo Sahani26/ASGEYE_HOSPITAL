@@ -1,0 +1,640 @@
+/* 
+.btnsub{
+    background-color:  #FEA12D;
+    ;
+    } */
+
+.btn {
+    background-color: #FEA12D;
+
+}
+
+.btn:hover {
+    background-color: #FEA12D;
+}
+
+.homepage {
+    margin-left: 180px;
+    margin-top: 135px;
+
+}
+
+.photodoctor {
+    width: 498px;
+    height: 423px;
+    margin-left: 125px;
+    /* margin-bottom: 43px; */
+    margin-top: -90px;
+
+}
+
+.homeabout {
+    float: left;
+}
+
+/* .doctor{
+    float: right;
+   } */
+.Achievers-text {
+    text-align: center;
+    font-weight: bold;
+}
+
+.Achievers img {
+    width: 45px;
+}
+
+.international {
+    display: flex;
+    align-items: center;
+}
+
+.patrika {
+    display: flex;
+    align-items: center;
+}
+
+.times {
+    display: flex;
+    align-items: center;
+}
+
+.rajiv {
+    display: flex;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    /* background-color: #2196F3; */
+    padding: 10px;
+}
+
+.grid-container>div {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* border: 1px solid black; */
+    text-align: center;
+    /* font-size: 30px; */
+}
+
+.grid-container img {
+    width: 45px;
+}
+
+.new4 {
+    width: 90%;
+}
+
+.aboutbt {
+    color: #9F3793;
+    border-radius: 8px;
+    border-color: #9F37931A
+}
+
+.edoc {
+    float: right;
+
+    margin-top: 55px;
+
+    margin-right: 186px;
+}
+
+.ephoto {
+    float: left;
+}
+
+.eyephoto {
+    width: 400px;
+    height: 400px;
+    margin-left: 125px;
+    margin-top: 18px;
+    border-bottom-left-radius: 69% 100%;
+    border-bottom-right-radius: 166% 100%;
+    border-top-left-radius: 63% 100%;
+    border-top-right-radius: 183% 100%;
+
+}
+
+.eye {
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    /* background-color: #2196F3; */
+    padding: 10px;
+}
+
+/* ****************service************** */
+.service {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: #2196F3; */
+    /* padding: 10px; */
+    margin-right: 140px;
+}
+
+.grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+    /* font-size: 30px; */
+    /* text-align: center; */
+    height: 260px;
+    border-radius: 10px;
+    grid-gap: 40px;
+}
+
+.ServicesSpecialities {
+    text-align: center;
+}
+
+.Cataracttext {
+    /* font-size: 30px; */
+    text-align: left;
+}
+
+.Cataract {
+    text-align: left;
+    /* background-image: linear-gradient(red, yellow); */
+    background: linear-gradient(180deg, rgba(1, 115, 188, 0.03) 0%, rgba(1, 115, 188, 0) 100%);
+    border-radius: 10px;
+
+}
+
+.Cataract img {
+    width: 55px;
+
+}
+
+.btnservice {
+    text-decoration: none;
+    color: #FEA12D;
+}
+
+.servicesubmit {
+    align-items: center;
+    width: 315px;
+
+}
+
+
+/* *************** grid-Excellence**************** */
+
+.grid-Excellence {
+    display: grid;
+    justify-content: start;
+    grid-template-columns: 1fr 3px 2fr;
+    /*Make the grid smaller than the container*/
+    gap: 10px;
+    background-color: #f1d6d6;
+    /* padding: 10px; */
+    border-radius: 10px;
+    margin-right: 160px;
+}
+
+.grid-Excellence>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    /* padding: 20px 0; */
+    /* font-size: 30px; */
+
+}
+
+.grid-Excellence p {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Lakh p {
+    font-size: 30px;
+    color: #0173BC;
+    display: inline-block;
+}
+
+.Lakh span {
+    display: inline-block;
+    font-weight: 100;
+}
+
+
+.vl {
+    border-left: 1px solid green;
+    height: 90px;
+    margin-top: 10px;
+}
+
+
+/* **************Reviews***************** */
+
+.reviews-container {
+    display: grid;
+    justify-content: start;
+    grid-template-columns: 1fr 1fr 1fr 1fr ; /*Make the grid smaller than the container*/
+    gap: 10px;
+    /* background-color: #2196F3; */
+    /* padding: 10px; */
+    height: 200px;
+    width: 1444px;
+  }
+  
+  .reviews-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    /* font-size: 30px; */
+    border-radius: 15px;
+margin-left: 35px;
+  }
+  .reviews img{
+    width: 100px;
+    /* margin-top: 77px; */
+  }
+  .reviewimg{
+ 
+    align-items: center;
+    margin-left: 45%;
+    display: flex;
+  }
+
+.reviews{
+    background-color: #0173BC;
+    height: 558px;
+    
+}
+.reviews-container p{
+    color: #000000 ;
+   text-align: left;
+   margin-left: 20px;
+}
+
+.reviews-container img{
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    /* margin-top: 30px; */
+   float: left;
+   margin-left: 20px;
+   display: flex;
+}
+.coment p{
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 85px;
+}
+.coment span{
+   align-items: start;
+    font-size: 14px;
+    float: left;
+    
+    margin-top: -15px;
+    margin-left: 14px;
+    color: #624d4d;
+  
+}
+.review2{
+    margin-left: -50px;
+}
+
+/* .review1{
+    margin-left: 90px;
+} */
+
+
+
+/* ***********slider********** */
+
+
+
+
+.video-slider-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.video-slider {
+    display: flex;
+    flex-wrap: nowrap; /* Ensure all slides are in a single row */
+}
+
+.video-slide {
+    width: 44px;
+    height: 888px;
+}
+
+@media screen and (max-width: 600px) {
+    .video-slide {
+        width: 100%; /* Make slides take full width on small screens */
+        height: auto; /* Allow slides to adjust height according to aspect ratio */
+    }
+}
+
+/* 
+********Random doctor************** */
+
+.grid-Random {
+    display: grid;
+    justify-content: start;
+    grid-template-columns: 1fr  1fr;
+    /*Make the grid smaller than the container*/
+    gap: 10px;
+    /* background-color: #f1d6d6; */
+    /* padding: 10px; */
+    border-radius: 10px;
+    margin-right: 160px;
+}
+
+.grid-Random>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align:left;
+    /* padding: 20px 0; */
+    /* font-size: 30px; */
+
+}
+
+.grid-Random p {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Lakh p {
+    font-size: 30px;
+    color: #0173BC;
+    display: inline-block;
+}
+
+.Lakh span {
+    display: inline-block;
+    font-weight: 100;
+}
+
+
+.vl {
+    border-left: 1px solid green;
+    height: 90px;
+    margin-top: 10px;
+}
+.servicesubmit{
+    align-items: center;
+    width: 315px;
+
+
+}
+
+.btnservice {
+    text-decoration: none;
+    color: #fdfbf9;
+    background-color: #FEA12D;
+}
+.all{
+    margin-left: 75px;
+}
+.rendom{
+    width: 639px;
+    height: 385px;
+    /* background-color: red; */
+}
+
+/* *************** See our latest News & Eventst**************** */ 
+.itemconent span {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.itemconent h1 {
+    font-size: 60px;
+
+}
+
+.grid-event {
+    display: grid;
+    justify-content: start;
+    grid-template-columns: 1fr 1fr;
+    /*Make the grid smaller than the container*/
+    gap: 10px;
+     /* padding: 10px; */
+    border-radius: 10px;
+    margin-right: 160px;
+}
+
+.grid-event>div {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    text-align: left;
+    /* padding: 20px 0; */
+    /* font-size: 30px; */
+
+}
+
+.grid-event p {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.grid-Lakh {
+
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.Lakh p {
+    font-size: 30px;
+    color: #0173BC;
+    display: inline-block;
+}
+
+.Lakh span {
+    display: inline-block;
+    font-weight: 100;
+}
+
+
+.vl {
+    border-left: 1px solid green;
+    height: 90px;
+    margin-top: 10px;
+}
+
+.servicesubmit {
+    align-items: center;
+    width: 315px;
+
+
+}
+
+.btnservice {
+    text-decoration: none;
+    color: #fdfbf9;
+    background-color: #FEA12D;
+}
+
+.all {
+    margin-left: 75px;
+}
+
+.rendom {
+    width: 639px;
+    height: 585px;
+    /* background-color: red; */
+}
+
+.event {
+    text-align: center;
+}
+
+.grid-event img {
+    width: 370px;
+    border-radius: 15px;
+}
+
+.bioimg img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    display: inline-block;
+    border-radius: 100px;
+
+}
+
+.bio {
+    display: grid;
+    justify-content: start;
+    grid-template-columns: 20% 70%
+}
+
+.bioimg p {
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 85px;
+    /* display: contents; */
+    align-items: center;
+    margin-left: 44px;
+
+}
+
+.bioimg {
+    display: flex;
+    align-items: center;
+}
+
+.date p {
+    font-size: 16px;
+    margin-top: 31px;
+    /* margin-left: 28px; */
+    text-align: left;
+}
+
+.doc1 {
+    display: grid;
+    justify-content: start;
+    grid-template-columns: 30% 70%;
+
+}
+
+.doc2 {
+    display: grid;
+    justify-content: start;
+    grid-template-columns: 30% 70%;
+
+}
+
+.doc1img img {
+    width: 182px;
+    height: 200px;
+    border-radius: 21px;
+}
+
+.doc2img img {
+    width: 182px;
+    height: 200px;
+    border-radius: 21px;
+}
+
+.doc2 {
+    display: grid;
+    justify-content: start;
+}
+
+.doc11 {
+    display: grid;
+    justify-content: start;
+    grid-template-columns: 40% 60%
+}
+
+.doc111 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    display: inline-block;
+    border-radius: 100px;
+
+}
+
+
+.doc111 {
+    display: flex;
+    align-items: center;
+}
+
+.doc111 p {
+    font-size: 22px;
+}
+
+/* .photodoc{
+    display: grid;
+    justify-content: start;
+    grid-template-columns: 40% 60%
+
+} */
+.photodoc p{
+
+    margin-top: 32px;
+text-align: left;
+}
+
+.imgbio{
+    display: grid;
+    grid-template-columns:   15% 35% 30%;
+  
+}
+.imgbio2{
+    display: grid;
+    grid-template-columns:   20% 35% 30%;
+  
+}
+.imgbio2 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    display: inline-block;
+    border-radius: 100px;   
+}
+.bioimg1 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    display: inline-block;
+    border-radius: 100px;   
+}
+
+
+.photodoc1 p{
+    margin-top: 10px;
+}
+.photodoc2 p{
+    margin-top: 10px;
+}
+.date1{
+    font-size: 16px;
+    margin-top: 11px;
+ 
+    text-align: left;
+}
+.date2{
+    font-size: 16px;
+    margin-top: 17px;
+ 
+    text-align: left;
+}

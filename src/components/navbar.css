@@ -1,0 +1,34 @@
+.text-right {
+    text-align: right;
+}
+
+.eyehos {
+    width: 1440px;
+    height: 70px;
+    top: 32px;
+    /* left: 60px; */
+    margin-left: 54px;
+    background-color: #dc5959;
+    border-radius: 20px;
+    /* overflow: hidden;
+    position: fixed; */
+
+}
+
+.btnsub{
+background-color:  #FEA12D;
+;
+}
+
+.photologo{
+   width: 266.8px;
+   height: 46px;
+}
+.navcon{
+   margin-left: 230px;
+}
+
+.ullist
+{
+   margin-right: 20px;
+}
