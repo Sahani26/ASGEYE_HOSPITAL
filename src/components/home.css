@@ -411,12 +411,13 @@ margin-left: 35px;
 .grid-event {
     display: grid;
     justify-content: start;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 58% 42%;
     /*Make the grid smaller than the container*/
     gap: 10px;
      /* padding: 10px; */
     border-radius: 10px;
     margin-right: 160px;
+ 
 }
 
 .grid-event>div {
@@ -424,12 +425,19 @@ margin-left: 35px;
     text-align: left;
     /* padding: 20px 0; */
     /* font-size: 30px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+width: 595px;
+height: 444px;
+border-radius: 20px;
 
 }
 
 .grid-event p {
     font-weight: 500;
     font-size: 17px;
+    margin-left: 53px;
+    margin-top: 13px;
+   
 }
 
 .grid-Lakh {
@@ -486,11 +494,14 @@ margin-left: 35px;
 .grid-event img {
     width: 370px;
     border-radius: 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    margin-left: 46px;
+    margin-top: 20px;
 }
 
 .bioimg img {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     border-radius: 100px;
     display: inline-block;
     border-radius: 100px;
@@ -541,15 +552,19 @@ margin-left: 35px;
 }
 
 .doc1img img {
-    width: 182px;
-    height: 200px;
+    width: 125px;
+    height: 153px;
     border-radius: 21px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
 
 .doc2img img {
-    width: 182px;
-    height: 200px;
+    width: 125px;
+    height: 153px;
     border-radius: 21px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
 
 .doc2 {
@@ -596,7 +611,7 @@ text-align: left;
 
 .imgbio{
     display: grid;
-    grid-template-columns:   15% 35% 30%;
+    grid-template-columns:   15% auto auto;
   
 }
 .imgbio2{
@@ -605,15 +620,15 @@ text-align: left;
   
 }
 .imgbio2 img{
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 100px;
     display: inline-block;
     border-radius: 100px;   
 }
 .bioimg1 img{
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 100px;
     display: inline-block;
     border-radius: 100px;   
@@ -621,7 +636,7 @@ text-align: left;
 
 
 .photodoc1 p{
-    margin-top: 10px;
+    margin-top: 25px;
 }
 .photodoc2 p{
     margin-top: 10px;
@@ -646,7 +661,7 @@ text-align: left;
     /* justify-content: start; */
     grid-template-columns: 1fr;
     gap: 10px;
-    background-color: #f1d6d6;
+    /* background-color: #f1d6d6; */
     border-radius: 10px;
     height: 100%;
    
@@ -690,13 +705,14 @@ background-color: #FEA12D;
 }
 .address{
     width: 1300px;
-    background-color: #0173BC;
+    /* background-color: #0173BC; */
     height: 250px;
     border-radius: 15px;
     margin: auto;
     display: grid;
     /* justify-content: start; */
     grid-template-columns: 433px 1fr 1fr 1fr;  
+    color: #FFFFFF;
 }
 .add img{
     width: 255px;
@@ -707,6 +723,7 @@ background-color: #FEA12D;
 }
 .quicklink{
     margin-left: 121px;
+    color: #FFFFFF;
 }
 
  .hrtag{
@@ -723,7 +740,22 @@ background-color: #FEA12D;
     display: grid;
     /* justify-content: start; */
     grid-template-columns: 1fr 1fr; 
+    color: #FFFFFF;
  }
 .copy2 p{
     text-align: end;
+    color: #FFFFFF;
+}
+
+.GetinTouch {
+
+    content: '';
+    border-top-left-radius: 196% 161%;
+    border-top-right-radius: 196% 161%;
+    /* position: absolute; */
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    background-color: #0D1726;
+    height: 80%;
 }

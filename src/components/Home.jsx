@@ -9,7 +9,7 @@ import edoc from '../assets/edoc.png'
 import google from '../assets/google.png'
 import reviews from '../assets/reviews.png'
 import random from '../assets/random.png'
-import './slider.css'
+// import './slider.css'
 import pataint from '../assets/pataint.png'
 import map from '../assets/map.png'
 import logoImage from '../assets/logo.png' // import your image file
@@ -418,184 +418,184 @@ export default function Home() {
             {/* ************** See our latest News & Eventst*************** */}
 
             <div className="event ">
-            <div className="itemconent">
-                <h1>See our latest News & Events</h1>
-                <span>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br />
-                    It has been the industry's standard dummy text
-                </span>
-            </div>
-            <div className="grid-event mt-5">
-                <div className='all'>
-                    <img src={pataint} alt="Image 4" />
-                    <p>Eye Care for Professionals: Navigating <br /> Digital Challenges</p>
+                <div className="itemconent">
+                    <h1>See our latest News & Events</h1>
+                    <span>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br />
+                        It has been the industry's standard dummy text
+                    </span>
+                </div>
+                <div className="grid-event mt-5">
+                    <div className='all'>
+                        <img src={pataint} alt="Image 4" />
+                        <p>Eye Care for Professionals: Navigating <br /> Digital Challenges</p>
 
 
-                    <div className="imgbio">
-                        <div className='bioimg'>
-                            <img src={pataint} alt="Image 4" />
+                        <div className="imgbio">
+                            <div className='bioimg'>
+                                <img src={pataint} alt="Image 4" />
 
+                            </div>
+                            <div className="photodoc">
+                                <p><span>by</span>  Dr. 2 Arun Singhvi</p>
+                            </div>
+                            <div className='date'>
+                                <p>Sep 08, 2023</p>
+                            </div>
                         </div>
-                        <div className="photodoc">
-                            <p><span>by</span>  Dr. Arun Singhvi</p>
-                        </div>
-                        <div className='date'>
-                            <p>Sep 08, 2023</p>
-                        </div>
+
                     </div>
 
-                </div>
 
 
 
+                    <div className='grid-Lakh'>
 
-                <div className='grid-Lakh'>
-
-                    <div className='doc1'>
-                        <div className='doc1img'><img src={pataint} alt="Image 4" /></div>
-                        <div><p>How to Give First Aid and Care <br />for Eye Emergencies?</p>
-                            <div className="imgbio">
-                                <div className='bioimg1'>
-                                    <img src={pataint} alt="Image 4" /> </div>
-                                <div className="photodoc1">
-                                    <p><span>by</span>  Dr. Arun Singhvi</p>
-                                </div>
-                                <div className='date1'>
-                                    <p>Sep 08, 2023</p>
-                                </div>
-                            </div>
-                            <div className="bt mt-5">
-                                <button className="btn btnservice" type="submit">Meet all Doctors</button></div>
-                        </div></div>
-                    <div className='doc2 mt-5'>
-                        <div className='doc2img'><img src={pataint} alt="Image 4" />
-                        </div>
-                        <div className='doc1111'>
-                            <div>
-                                <p>5 Important Dermatologist Tips <br />for Dry Eyelids (Blepharitis)</p>
-                                 
-                                    <div className='imgbio'>
+                        <div className='doc1'>
+                            <div className='doc1img'><img src={pataint} alt="Image 4" /></div>
+                            <div><p>How to Give First Aid and Care <br />for Eye Emergencies?</p>
+                                <div className="imgbio">
                                     <div className='bioimg1'>
-                                    <img src={pataint} alt="Image 4" /> </div>
+                                        <img src={pataint} alt="Image 4" /> </div>
                                     <div className="photodoc1">
-                                        <p><span>by</span>   Dr. Arun Singhvi</p>
+                                        <p><span>by</span>  1 Arun Singhvi</p>
                                     </div>
                                     <div className='date1'>
                                         <p>Sep 08, 2023</p>
                                     </div>
+                                </div>
+                                <div className="bt mt-1">
+                                    <button className="btn btnservice" type="submit">Meet all Doctors</button></div>
+                            </div></div>
+                        <div className='doc2 mt-3'>
+                            <div className='doc2img'><img src={pataint} alt="Image 4" />
+                            </div>
+                            <div className='doc1111'>
+                                <div>
+                                    <p>5 Important Dermatologist Tips <br />for Dry Eyelids (Blepharitis)</p>
+
+                                    <div className='imgbio'>
+                                        <div className='bioimg1'>
+                                            <img src={pataint} alt="Image 4" /> </div>
+                                        <div className="photodoc1">
+                                            <p><span>by</span>   3 Arun Singhvi</p>
+                                        </div>
+                                        <div className='date1'>
+                                            <p>Sep 08, 2023</p>
+                                        </div>
                                     </div>
-                                    
-                                    
-                               
+
+
+
+                                </div>
+                                <div className="bt mt-1">
+                                    <button className="btn btnservice" type="submit">Meet all Doctors</button>
+
+                                </div>
                             </div>
-                            <div className="bt mt-5">
-                                <button className="btn btnservice" type="submit">Meet all Doctors</button>
+                        </div>
 
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            {/* **********Get In Touch****** */}
+
+            <div className="GetinTouch mt-5" id="oval">
+                <div className="Touch">
+                    <div className="gettouch">
+                        <h1>Get in Touch</h1>
+                        <span>Call us now if you are in a medical emergency need, we will <br /> reply swiftly and provide you with a medical aid.</span>
+                    </div>
+                    <div className="bookappoint">
+                        <div className="callnumber">
+                            <button className="btn btnsub " type="submit">Consult Now</button>
+                            <p>1800 1200 111</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div className="address">
+                    <div className="add">
+                        <img className='photologo' src={logoImage} alt="ASG EYE HOSPITALS Logo" />
+                        <div className="addtext mt-4">
+                            <p>Lorem Ipsum is simply dummy text of the printing and <br />typesetting industry. Lorem Ipsum has been the industry's<br /> standard dummy text</p>
+                        </div>
+                    </div>
+                    <div className="quicklink">
+                        <div>
+                            <a className="nav-link active" href="#">Quick Link</a>
+
+                        </div>
+                        <div className="qlink mt-4">
+                            <ul className="navbar-nav me-auto mb-2 mb-lg-0 ullist">
+                                <li className="nav-item">
+                                    <a className="nav-link active" href="#">Home</a>
+                                </li>
+                                <li className="nav-item  ">
+                                    <a className="nav-link active" href="#">About</a>
+                                </li>
+                                <li className="nav-item ">
+                                    <a className="nav-link active" href="#">Hospitals</a>
+                                </li>
+                                <li className="nav-item ">
+                                    <a className="nav-link active" href="#">Specialities</a>
+                                </li>
+                                <li className="nav-item ">
+                                    <a className="nav-link active" href="#">Blog</a>
+                                </li>
+                                <li className="nav-item ">
+                                    <a className="nav-link active" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div className="contactus">
+                        <div>
+                            <a className="nav-link active" href="#">Contact INFO</a>
+
+                        </div>
+                        <div className="coninfo mt-4">
+                            <div className="info1">
+                                <a className="nav-link active" href="#">Phone No.</a>
+                                <span>(+91) 1800 1200 111</span>
                             </div>
+                            <div className="info2 mt-3">
+                                <a className="nav-link active" href="#">Email</a>
+                                <span>a@gmail.com</span>
+                            </div>
+
                         </div>
                     </div>
+                    <div className="location">
+                        <div>
+                            <a className="nav-link active" href="#">Location</a>
 
-                </div>
-
-            </div>
-
-
-        </div>
-
-
-        {/* **********Get In Touch****** */}
-
-        <div className="GetinTouch">
-            <div className="Touch">
-                <div className="gettouch">
-                    <h1>Get in Touch</h1>
-                    <span>Call us now if you are in a medical emergency need, we will <br /> reply swiftly and provide you with a medical aid.</span>
-                </div>
-                <div className="bookappoint">
-                    <div className="callnumber">
-                        <button className="btn btnsub " type="submit">Consult Now</button>
-                        <p>1800 1200 111</p>
-                    </div>
-
-                </div>
-            </div>
-            <div className="address">
-                <div className="add">
-                    <img className='photologo' src={logoImage} alt="ASG EYE HOSPITALS Logo" />
-                    <div className="addtext mt-4">
-                        <p>Lorem Ipsum is simply dummy text of the printing and <br />typesetting industry. Lorem Ipsum has been the industry's<br /> standard dummy text</p>
-                    </div>
-                </div>
-                <div className="quicklink">
-                    <div>
-                        <a className="nav-link active" href="#">Quick Link</a>
-
-                    </div>
-                    <div className="qlink mt-4">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 ullist">
-                            <li className="nav-item">
-                                <a className="nav-link active" href="#">Home</a>
-                            </li>
-                            <li className="nav-item  ">
-                                <a className="nav-link active" href="#">About</a>
-                            </li>
-                            <li className="nav-item ">
-                                <a className="nav-link active" href="#">Hospitals</a>
-                            </li>
-                            <li className="nav-item ">
-                                <a className="nav-link active" href="#">Specialities</a>
-                            </li>
-                            <li className="nav-item ">
-                                <a className="nav-link active" href="#">Blog</a>
-                            </li>
-                            <li className="nav-item ">
-                                <a className="nav-link active" href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-                <div className="contactus">
-                    <div>
-                        <a className="nav-link active" href="#">Contact INFO</a>
-
-                    </div>
-                    <div className="coninfo mt-4">
-                        <div className="info1">
-                            <a className="nav-link active" href="#">Phone No.</a>
-                            <span>(+91) 1800 1200 111</span>
                         </div>
-                        <div className="info2 mt-3">
-                            <a className="nav-link active" href="#">Email</a>
-                            <span>a@gmail.com</span>
+                        <div className="map mt-4">
+                            <img className='photologo' src={map} alt="ASG EYE HOSPITALS Logo" />
+
                         </div>
-
                     </div>
                 </div>
-                <div className="location">
-                    <div>
-                        <a className="nav-link active" href="#">Location</a>
-
+                <div className="hr mt-3">
+                    <hr className='hrtag ' />
+                </div>
+                <div className="copyright">
+                    <div className="copy">
+                        <p>© Copyright 2023 Laversab Inc. All Rights Reserved.</p>
                     </div>
-                    <div className="map mt-4">
-                        <img className='photologo' src={map} alt="ASG EYE HOSPITALS Logo" />
-
+                    <div className="copy2">
+                        <p>Teleconsultation | Terms and Conditions | Cancellation and Refund Policy</p>
                     </div>
                 </div>
-            </div>
-            <div className="hr mt-3">
-                <hr className='hrtag ' />
-            </div>
-            <div className="copyright">
-                <div className="copy">
-                    <p>© Copyright 2023 Laversab Inc. All Rights Reserved.</p>
-                </div>
-                <div className="copy2">
-                    <p>Teleconsultation | Terms and Conditions | Cancellation and Refund Policy</p>
-                </div>
-            </div>
 
-        </div>
+            </div>
 
         </>
     )
